@@ -1,4 +1,4 @@
-function diff(x) {
+function check(x) {
     if (x > 13) {
         return (x - 13) * 2
     } else {
@@ -6,5 +6,5 @@ function diff(x) {
     }
 }
 
-console.log(diff(10))
-console.log(diff(20))
+console.log(check(10))
+console.log(check(20))

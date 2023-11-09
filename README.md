@@ -48,20 +48,19 @@ Utilize a estrutura de condição switch case
 
 ### Exemplo:
 
-- SEGUNDA -> REUNIÃO
-- TERÇA -> PALESTRA
-- QUARTA -> WORKSHOP
-- QUINTA -> TRABALHO REMOTO
-- SEXTA -> AGENDAMENTO SEMANAL
-- SABADO -> SHOPPING
-- DOMINGO -> PRAIA
+- SEGUNDA   -> REUNIÃO
+- TERÇA     -> PALESTRA
+- QUARTA    -> WORKSHOP
+- QUINTA    -> TRABALHO REMOTO
+- SEXTA     -> AGENDAMENTO SEMANAL
+- SABADO    -> SHOPPING
+- DOMINGO   -> PRAIA
 
 ## Questão 8 [js](Q8/Q8.js)
 
 Escreva um programa Javascript que imprima a soma de dois números.
 
-Utilize o PROMPT
-para entrada de dados e o ALERT para exibir os resultados
+Utilize o PROMPT para entrada de dados e o ALERT para exibir os resultados
 
 ## Questão 9 [js](Q9/Q9.js)
 
@@ -71,11 +70,15 @@ Escreva um programa Javascript que altere o valor contido em uma tag \<p> de uma
 
 Tendo a tag no index.html:
 
-- \<p>Conteudo a ser alterado\</p>
+```
+<p>Conteudo a ser alterado</p>
+```
 
 Após a excução da função Javascript esse deve ser o valor da tag \<p> na pagina index.html:
 
-- \<p>(Seu nome)\</p>
+```
+<p>(Seu nome)</p>
+```
 
 ## Questão 10 [js](Q10/Q10.js)
 
@@ -87,8 +90,12 @@ Utilize o PROMPT para a entrada dos dados.
 
 Tendo a tag \<p> no index.html:
 
-- \<p>0\</p>
+```
+<p>0</p>
+```
 
 Após a excução da função Javascript, com os valores 20 e 30, esse deve ser o valor da tag \<p> na pagina index.html:
 
-- \<p>50\</p> (Resultado da soma 20+30)
+```
+<p>50</p> (Resultado da soma 20+30)
+```

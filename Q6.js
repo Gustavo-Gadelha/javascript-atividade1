@@ -4,10 +4,10 @@ function media(x, y) {
     } else if (y < 0 || y > 10) {
         console.log("Número inválido: " + y)
     } else {
-        console.log((x + y) / 2)
+        console.log(`Média: ${(x + y) / 2}`)
     }
 }
 
-media(4, 5)
-media(11, 1)
-media(1, 11)
+media(4, 6)
+media(13, 1)
+media(5, 19)

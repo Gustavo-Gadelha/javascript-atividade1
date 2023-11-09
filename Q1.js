@@ -1,10 +1,10 @@
-let a = 5
-let b = 6
-let c = 7
+function areaTriangulo(a, b, c) {
+    var sp = (a + b + c) / 2
+    var area = Math.sqrt(sp*(sp-a)*(sp-b)*(sp-c))
 
-let p = (a + b + c) / 2
-let Area = Math.sqrt(p*(p-a)*(p-b)*(p-c))
+    console.log(`Lados do triângulo: ${a}, ${b} e ${c}`)
+    console.log(`Semi-perímetro do triângulo: ${sp}`)
+    console.log(`Área do triângulo: ${area}\n`)
+}
 
-console.log(`Lados do triângulo: ${a}, ${b} e ${c}`)
-console.log(`Semi-perímetro do triângulo: ${p}`)
-console.log(`Área do triângulo: ${Area}`)
+areaTriangulo(5, 6, 7)

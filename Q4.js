@@ -6,5 +6,5 @@ function sum(x, y) {
     }
 }
 
-console.log(sum(10, 10))
-console.log(sum(10, 30))
+console.log(`Resultado da soma de números iguais: ${sum(10, 10)}`)
+console.log(`Resultado da soma de números diferentes: ${sum(10, 50)}`)

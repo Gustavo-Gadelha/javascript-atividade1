@@ -1,9 +1,9 @@
 function removeFromStringAt(str, ind) {
     if (ind >= str.length) {
         return "Index out of bounds"
+    } else {
+        return [str.charAt(ind), str.slice(0, ind) + str.slice(ind+1)]        
     }
-
-    return [str.charAt(ind), str.slice(0, ind) + str.slice(ind+1)]
 }
 
 console.log(removeFromStringAt("hello world", 6))
